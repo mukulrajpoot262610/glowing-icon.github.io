@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.screen{
+    height: 100vh;
+    width: 100vw;
+    background-color: #2c2c2c;
+    overflow: hidden;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen i{
+    transition: 1s;
+    color: rgba(0, 0, 0, 0);
+    font-size: 100px;
+    padding: 5px 5px;
+    user-select: none;
+    cursor: default;
+}
+
+.screen i:hover{
+    transition: 0s;
+    color: red;
+    text-shadow: 0 0 150px red
+}
